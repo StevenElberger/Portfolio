@@ -1,21 +1,32 @@
 body {
-    font-family: Arial, Verdana, sans-serif;
-    font-size: 16px;
-    color: #333;
-    background-image: url("greybg-min.png");
-    background-color: #353638;
-}
+  font-size: 18px;
+  color: #fff;
+  background-image: url("blurry-site-bg-compressor.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #353638; }
 
 a, a:visited, a:hover, a:active {
-    text-decoration: none;
-}
+  text-decoration: none;
+  color: #fff; }
 
 a > img:hover {
-    opacity: .5;
-}
+  opacity: .5; }
 
 .container-fluid {
-    background-color: rgb(255,255,255);
-    height: 100vh;
-    max-width: 960px;
-}
+  height: 100vh;
+  max-width: 960px; }
+
+ul.nav > li {
+  display: inline;
+  margin-right: 5%; }
+
+ul.nav > li > a {
+  display: inline; }
+
+ul.nav > li > a:hover {
+  color: #275adb;
+  background-color: transparent; }
+
+/*# sourceMappingURL=style.css.map */
